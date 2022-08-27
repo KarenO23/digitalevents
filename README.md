@@ -13,16 +13,15 @@ El proyecto esta divido en tres fases:
 
 * ### Documentacion: 
 Se hace uso de la herramienta swagger2 v3.0.0 para la documentación para el consumo de la aplicación.
->.../digitalevents/api/swagger-ui/index.html
+>http://digitalevents-project.herokuapp.com/digitalevents/api/swagger-ui/index.html
 
 * ### Request:
 - Se crea la entrada para el registro de eventos tomando como parametros el evento, la plataforma y la fecha en que se
 origina la petición.
->.../digitalevents/api/event/registry?idPlatform=DEPO&idEvent=F004&initDate=02/10/2022
+>https://digitalevents-project.herokuapp.com/digitalevents/api/event/registry?idPlatform=DEPO&idEvent=F004&initDate=02/10/2022
 
 - Se crea la entrada para la consulta de eventos por plataforma, utilizando como parámetros la plataforma y la fecha.
->.../digitalevents/api/event/platform?idPlatform=DEPO&date=02/10/2022
-
+>https://digitalevents-project.herokuapp.com/digitalevents/api/event/platform?idPlatform=DEPO&date=02/10/2022
 # Tecnologias
 Se hizo uso de las siguientes tecnoligias
 * Postgres 42.3.1
