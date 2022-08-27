@@ -4,12 +4,14 @@ import com.bvc.digitalevents.domain.RegistryEvent;
 import com.bvc.digitalevents.domain.repository.EventDomainRepository;
 import com.bvc.digitalevents.persistence.entity.Event;
 import com.bvc.digitalevents.persistence.entity.EventPerPlatform;
+import com.bvc.digitalevents.persistence.repository.EventPlatformRepository;
+import com.bvc.digitalevents.persistence.repository.EventRepository;
+import com.bvc.digitalevents.persistence.repository.PlatformRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

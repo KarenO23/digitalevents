@@ -1,4 +1,4 @@
-package com.bvc.digitalevents.persistence;
+package com.bvc.digitalevents.persistence.repository;
 
 import com.bvc.digitalevents.persistence.entity.Platform;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,4 +1,4 @@
-package com.bvc.digitalevents.persistence;
+package com.bvc.digitalevents.persistence.repository;
 
 import com.bvc.digitalevents.persistence.entity.EventPerPlatform;
 import com.bvc.digitalevents.persistence.entity.EventPerPlatformPK;
